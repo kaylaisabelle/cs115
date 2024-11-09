@@ -1,0 +1,200 @@
+/* Code to change the font of the entire website */
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+/* Code to format the layout class */
+.layout {
+  display: grid;
+  grid-template-columns: 275px auto 350px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+/* Code to format the layout_right_sidebar class */
+.layout_right_sidebar {
+  position: fixed;
+  width: 350px;
+}
+
+/* Code to change the font next to the icons */
+.sidebar_menu_icon {
+  font-size: 19px;
+  color: #0F141A;
+  align-items: center;
+  display: flex;
+  font-weight: 700;
+  padding: 10px;
+  margin: 20px 20px 0 5px;
+}
+
+/* Code to make the current sidebar menu icon of the website blue */
+.sidebar_menu_icon--active {
+  color: #1da0f2;
+}
+
+/* Code to create a blue, shaded border around the sidebar icon when the cursor
+hovers over it */
+.sidebar_menu_icon:hover {
+  background: rgba(29, 161, 242, 0.1);
+  color: #1da0f2;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Code to format the style of the sidebar icons */
+.sidebar_icon {
+  height: 26px;
+  align-items: center;
+  margin-right: 20px;
+}
+
+/* Code to format the font of the bookmarks title of the page */
+#bookmarks_title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #14171a;
+  margin: 20px 20px 0 5px;
+}
+
+/* Code to format the font of the username under the bookmarks title of the page */
+#bookmarks_user {
+  color: #5b7083;
+  font-size: 15px;
+  margin-left: 5px;
+}
+
+/* Code to format the display, border, padding, and margin of the entire tweet */
+.tweet {
+  display: flex;
+  border: 1px solid #e6ecf0;
+  border-radius: 6px;
+  padding: 10px 15px;
+  margin: 20px 20px 0 5px;
+}
+
+/* Code to format the profile picture of the tweet author */
+.tweet_author_logo {
+  width: 49px;
+  height: 49px;
+  margin-right: 10px;
+}
+
+/* Code to format the layout of the header of the tweet */
+.tweet_header {
+  display: flex;
+}
+
+/* Code to change the font and style of the tweet author name */
+.tweet_author_name {
+  font-size: 15px;
+  font-weight: 700;
+  color: #14171a;
+  margin-right: 5px;
+}
+
+/* Code to change the font and style of the tweet username */
+.tweet_username {
+  color: #5b7083;
+  font-size: 15px;
+}
+
+/* Code to change the layout and style of the tweet publish time */
+.tweet_publish_time {
+  margin-left: 5px;
+  color: #657786;
+}
+
+/* Code to change the format of images in tweets */
+.tweet_image {
+  width: 100%;
+  border-radius: 15px;
+  margin-top: 5px;
+}
+
+/* Code to create a tint when a cursor hovers over a tweet */
+.tweet:hover {
+  background: rgba(0, 0, 0, 0.03);
+  cursor: pointer;
+}
+
+/* Code to change the color of a link */
+a:link {
+  color: #0F141A;
+  text-decoration: none;
+}
+
+/* Code to change the color of a link after clicking on it */
+a:visited {
+  color: #0F141A;
+  text-decoration: none;
+}
+
+/* Code to change the style of a link when it a mouse hovers on it */
+a:hover {
+  color: #1da0f2;
+  text-decoration: none;
+}
+
+/* Code to format the Trends for You box */
+.trends_for_you {
+  border-radius: 15px;
+  background: #f5f8fa;
+  margin-bottom: 15px;
+}
+
+/* Code to format the padding and add a border to each section of the Trends
+for You box */
+.trends_for_you_block {
+  border-bottom: 1px solid #e6ecf0;
+  padding: 10px 15px;
+}
+
+/* Code to change the font style of the header of the Trends for You box */
+.trends_for_you_header {
+  font-size: 19px;
+  font-weight: bold;
+  color: #14171a;
+}
+
+/* Code to change the font style of the content of the Trends for You box */
+.trends_for_you_content {
+  font-size: 13px;
+  font-weight: 300;
+  color: #657786;
+}
+
+/* Code to change the font style and margin of the hashtag text of the Trends
+for You box */
+.trends_for_you_hashtag {
+  font-size: 15px;
+  color: #14171a;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 2px;
+}
+
+/* Code to change the padding for the last section of the Trends for You block */
+#trends_for_you_lastblock {
+  padding: 10px 15px;
+}
+
+/* Code to change the layout of the layout_right_sidebar_container class */
+.layout_right_sidebar_container {
+  margin: 20px 20px 0 5px;
+}
+
+/* Code to change the font of the copyright section */
+#Copyright {
+  font-size: 13px;
+  color: #5b7083;
+  align-items: center;
+  padding: 0px 16px;
+}
+
+/* Code to format the copyright symbol */
+#copyright_symbol {
+  height: 10px;
+  align-items: center;
+}
